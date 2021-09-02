@@ -20,6 +20,9 @@ spec:
   - name: containerRegistry
   - name: targetArch
   - name: namespace
+  - name: remoteHost
+  - name: remotePort
+  - name: remoteUser
   - name: remoteSecret
   resourcetemplates:
   - apiVersion: tekton.dev/v1beta1
