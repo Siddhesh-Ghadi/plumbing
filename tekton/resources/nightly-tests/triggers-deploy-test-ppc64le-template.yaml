@@ -55,7 +55,7 @@ spec:
       pipelineSpec:
         workspaces:
         - name: shared-workspace
-        - name: k8s-config
+        - name: ssh-secret
         params:
         - name: container-registry
         - name: target-arch
