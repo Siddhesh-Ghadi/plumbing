@@ -18,8 +18,8 @@ spec:
   - name: tags
     default: e2e
   workspaces:
-  - name: k8s-config
-    description: workspace to get k8s config file
+  - name: k8s-shared
+    description: workspace for k8s config, configuration file is expected to have `config` name
     mountPath: /root/.kube
   - name: source-code
     description: workspace with source code for tekton component
